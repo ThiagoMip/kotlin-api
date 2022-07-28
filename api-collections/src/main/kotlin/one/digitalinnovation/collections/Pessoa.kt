@@ -6,17 +6,12 @@ class Pessoa {
 
     private set
 
-    inner class  Endereco {
-        var rua:String = "Rua teste"
-
-    }
+    fun pessoaInfo() = "$nome + $cpf"
 }
 
 fun main(){
     val thiago = Pessoa()
 
-    println(thiago.nome)
-    println(thiago.cpf)
+    println(thiago.pessoaInfo())
 
-    println(thiago.Endereco().rua)
 }
