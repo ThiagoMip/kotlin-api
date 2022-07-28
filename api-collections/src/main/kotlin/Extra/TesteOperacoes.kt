@@ -1,4 +1,4 @@
-package one.digitalinnovation.collections
+package Extra
 
 fun main() {
     val salarios = doubleArrayOf(1000.0, 2250.0, 4000.0)

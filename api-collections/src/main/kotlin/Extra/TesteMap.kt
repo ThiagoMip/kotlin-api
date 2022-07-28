@@ -1,4 +1,4 @@
-package one.digitalinnovation.collections
+package Extra
 
 fun main() {
     val pair: Pair<String, Double> = Pair("Joao", 1000.0)
